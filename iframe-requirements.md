@@ -11,6 +11,7 @@
   ```
   {
     type: (danger|success|warning|info),
+    code: integer,
     title: string,
     message: string
   }
