@@ -1,10 +1,11 @@
 
 **LS iFrame Events API**
 - **API**
-  | Event                | Type                             | Payload         | Description                             |
-  |:---------------------|:---------------------------------|-----------------|-----------------------------------------|
-  | ls.alert.event       | (danger\|success\|warning\|info) | shown below     | Messages to be displayed to end user    |
-  | ls.onLoad.event      | loaded                           | none            | Indicates when frames content is loaded |
+
+  | Event                | Type                             | Payload         | Description                             |  
+  |----------------------|----------------------------------|-----------------|-----------------------------------------|  
+  | ls.alert.event       | (danger\|success\|warning\|info) | shown below     | Messages to be displayed to end user    |  
+  | ls.onLoad.event      | loaded                           | none            | Indicates when frames content is loaded | 
 
 - **Payload**
   ```
@@ -30,9 +31,10 @@ Details can be found [here](https://developers.google.com/web/tools/chrome-devto
 | Load	    | Page considered ready to use in 1000ms.	                        | User loads the page and sees the critical path content. |
 | Load	    | Satisfy the Response goals during the full page load process.	  | User loads the page and starts interacting (e.g., scrolls or opens navigation). |
 
-**CDN Packages**
-| Package   | Version    | Source                                                                     |
-|-----------|------------|----------------------------------------------------------------------------|
-| jQuery    | 1.11.1     | https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js |
-| Bootstrap | 3.3.6      | https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js |
-| Lodash    | 4.14.2     | https://cdn.jsdelivr.net/lodash/4.14.2/lodash.min.js                       |
+**CDN Packages** 
+
+| Package   | Version    | Source                                                                     |  
+|-----------|------------|----------------------------------------------------------------------------|  
+| jQuery    | 1.11.1     | https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js |  
+| Bootstrap | 3.3.6      | https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js |  
+| Lodash    | 4.14.2     | https://cdn.jsdelivr.net/lodash/4.14.2/lodash.min.js                       |  
